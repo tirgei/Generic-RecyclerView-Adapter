@@ -10,8 +10,8 @@ Step 1: Add in your root build.gradle of your project
 ```
     allprojects {
 	repositories {
-	...
-	maven { url 'https://jitpack.io' }
+		...
+		maven { url 'https://jitpack.io' }
 	}
     }
 ```
