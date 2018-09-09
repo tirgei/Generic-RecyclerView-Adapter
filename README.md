@@ -9,18 +9,23 @@ You can add the library to your project via gradle
 Step 1: Add in your root build.gradle of your project
 ```
     allprojects {
-	        	repositories {
-			                ...
-			                maven { url 'https://jitpack.io' }
-		        }
-	    }
+	repositories {
+	...
+	maven { url 'https://jitpack.io' }
+	}
+    }
 ```
 
 Step 2: Add the dependency to your app gradle in the app folder
 ```
+
     dependencies {
-	        implementation 'com.github.tirgei:Generic-RecyclerView-Adapter:1.0.0'
-    	}
+    	...
+	implementation 'com.github.tirgei:Generic-RecyclerView-Adapter:1.0.0'
+	...
+    }
+    
+   
 ```
 
 ### Usage
